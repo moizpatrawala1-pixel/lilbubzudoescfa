@@ -1,196 +1,1202 @@
-{
-  "Ethics": [
-    {
-      "id": 1,
-      "subject": "Ethics",
-      "question": "Members must act with:",
-      "options": ["Speed", "Integrity", "Aggression", "Bias"],
-      "answer": 1,
-      "explanation": "Integrity is core to CFA Code of Ethics."
-    },
-    {
-      "id": 2,
-      "subject": "Ethics",
-      "question": "Front running violates:",
-      "options": ["Suitability", "Priority of Transactions", "Disclosure", "Misconduct"],
-      "answer": 1,
-      "explanation": "Client trades must take priority."
-    },
-    {
-      "id": 3,
-      "subject": "Ethics",
-      "question": "Material non-public info use is:",
-      "options": ["Allowed", "Encouraged", "Prohibited", "Optional"],
-      "answer": 2,
-      "explanation": "Insider trading is strictly prohibited."
-    },
-    {
-      "id": 4,
-      "subject": "Ethics",
-      "question": "Misrepresentation includes:",
-      "options": ["Accurate reporting", "Omission of facts", "Transparency", "Disclosure"],
-      "answer": 1,
-      "explanation": "Omitting key facts misleads investors."
-    },
-    {
-      "id": 5,
-      "subject": "Ethics",
-      "question": "Soft dollar benefits must go to:",
-      "options": ["Manager", "Broker", "Client", "Regulator"],
-      "answer": 2,
-      "explanation": "Client interest comes first."
-    },
-    {
-      "id": 6,
-      "subject": "Ethics",
-      "question": "Standard on loyalty is toward:",
-      "options": ["Employer", "Client", "Government", "Peers"],
-      "answer": 1,
-      "explanation": "Client interests come first."
-    },
-    {
-      "id": 7,
-      "subject": "Ethics",
-      "question": "Plagiarism violates:",
-      "options": ["Diligence", "Misrepresentation", "Suitability", "Independence"],
-      "answer": 1,
-      "explanation": "Using others’ work without credit is misrepresentation."
-    },
-    {
-      "id": 8,
-      "subject": "Ethics",
-      "question": "Suitability requires:",
-      "options": ["High returns", "Client risk alignment", "Fast execution", "Low cost"],
-      "answer": 1,
-      "explanation": "Investments must match client objectives."
-    },
-    {
-      "id": 9,
-      "subject": "Ethics",
-      "question": "Record retention is:",
-      "options": ["Optional", "Mandatory", "Illegal", "Discouraged"],
-      "answer": 1,
-      "explanation": "Maintaining records is required."
-    },
-    {
-      "id": 10,
-      "subject": "Ethics",
-      "question": "Independence and objectivity protects against:",
-      "options": ["Bias", "Taxes", "Volatility", "Risk"],
-      "answer": 0,
-      "explanation": "It ensures unbiased judgment."
-    }
-  ],
-
-  "Quantitative Methods": [
-    {
-      "id": 11,
-      "subject": "Quant",
-      "question": "Mean is:",
-      "options": ["Middle value", "Average", "Mode", "Variance"],
-      "answer": 1,
-      "explanation": "Mean is arithmetic average."
-    },
-    {
-      "id": 12,
-      "subject": "Quant",
-      "question": "Standard deviation measures:",
-      "options": ["Return", "Risk", "Growth", "Inflation"],
-      "answer": 1,
-      "explanation": "SD measures volatility."
-    },
-    {
-      "id": 13,
-      "subject": "Quant",
-      "question": "NPV positive means:",
-      "options": ["Reject project", "Accept project", "Ignore", "Delay"],
-      "answer": 1,
-      "explanation": "Positive NPV adds value."
-    }
-  ],
-
-  "FSA": [
-    {
-      "id": 21,
-      "subject": "FSA",
-      "question": "Assets = ?",
-      "options": ["Liabilities + Equity", "Revenue + Expenses", "Cash + Debt", "Profit + Loss"],
-      "answer": 0,
-      "explanation": "Basic accounting equation."
-    },
-    {
-      "id": 22,
-      "subject": "FSA",
-      "question": "Depreciation is:",
-      "options": ["Cash", "Non-cash", "Revenue", "Liability"],
-      "answer": 1,
-      "explanation": "Depreciation is non-cash."
-    }
-  ],
-
-  "Economics": [
-    {
-      "id": 31,
-      "subject": "Economics",
-      "question": "Inflation reduces:",
-      "options": ["Purchasing power", "GDP", "Interest rates", "Exports"],
-      "answer": 0,
-      "explanation": "Inflation erodes purchasing power."
-    }
-  ],
-
-  "Corporate Issuers": [
-    {
-      "id": 41,
-      "subject": "Corporate Issuers",
-      "question": "WACC used for:",
-      "options": ["Forecasting", "Discounting", "Budgeting", "Accounting"],
-      "answer": 1,
-      "explanation": "WACC is discount rate."
-    }
-  ],
-
-  "Equity": [
-    {
-      "id": 51,
-      "subject": "Equity",
-      "question": "P/E measures:",
-      "options": ["Risk", "Valuation", "Liquidity", "Growth"],
-      "answer": 1,
-      "explanation": "Valuation metric."
-    }
-  ],
-
-  "Fixed Income": [
-    {
-      "id": 61,
-      "subject": "Fixed Income",
-      "question": "Bond prices move:",
-      "options": ["With rates", "Opposite rates", "Random", "No relation"],
-      "answer": 1,
-      "explanation": "Inverse relationship."
-    }
-  ],
-
-  "Derivatives": [
-    {
-      "id": 71,
-      "subject": "Derivatives",
-      "question": "Call option gives right to:",
-      "options": ["Sell", "Buy", "Hold", "Short"],
-      "answer": 1,
-      "explanation": "Call = buy."
-    }
-  ],
-
-  "Portfolio Management": [
-    {
-      "id": 81,
-      "subject": "Portfolio",
-      "question": "Diversification reduces:",
-      "options": ["Systematic risk", "Unsystematic risk", "Market risk", "Beta"],
-      "answer": 1,
-      "explanation": "Removes firm-specific risk."
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "subject": "Ethics",
+    "question": "Under the CFA Institute Code of Ethics, which principle requires a member to put client interests first when their interests conflict with the member's own?",
+    "options": [
+      "Loyalty",
+      "Fair dealing",
+      "Integrity"
+    ],
+    "answer": 0,
+    "explanation": "Loyalty requires prioritising client interests over personal interests. Fair dealing means treating clients equally, and integrity is about honesty but not specifically prioritising client interests."
+  },
+  {
+    "id": 2,
+    "subject": "Ethics",
+    "question": "A portfolio manager executes a personal trade immediately before placing a large client order in the same security. Which Standard is MOST likely violated?",
+    "options": [
+      "Priority of transactions",
+      "Duty to employer",
+      "Suitability"
+    ],
+    "answer": 0,
+    "explanation": "Priority of transactions requires client trades to be executed before personal trades. The other standards are not specifically about trade timing or client priority."
+  },
+  {
+    "id": 3,
+    "subject": "Ethics",
+    "question": "An analyst learns inside information about an upcoming merger. According to CFA Standards, which action is correct?",
+    "options": [
+      "Place a personal order before the news is public",
+      "Refrain from trading until information is public",
+      "Share the information with family only"
+    ],
+    "answer": 1,
+    "explanation": "Using material non-public information to trade is prohibited. The analyst must wait until information is public. Sharing or trading on it before release would violate standards."
+  },
+  {
+    "id": 4,
+    "subject": "Ethics",
+    "question": "Which of the following is MOST consistent with exercising independent judgement?",
+    "options": [
+      "Accepting research suggestions without analysis",
+      "Consulting multiple sources before making a recommendation",
+      "Only following the portfolio manager's orders"
+    ],
+    "answer": 1,
+    "explanation": "Independent judgement involves forming your own conclusions based on analysis of multiple sources. Accepting suggestions blindly or only following orders does not demonstrate independence."
+  },
+  {
+    "id": 5,
+    "subject": "Ethics",
+    "question": "A manager accepts payments from a broker in exchange for directing client trades to that broker. According to CFA Standards, this action is:",
+    "options": [
+      "Prohibited",
+      "Allowed if disclosed to employer",
+      "Allowed under any circumstances"
+    ],
+    "answer": 0,
+    "explanation": "Accepting such payments for trade allocations violates the standard on professionalism and conflicts of interest. It is prohibited regardless of disclosure or employer permission."
+  },
+  {
+    "id": 6,
+    "subject": "Ethics",
+    "question": "A member promises a guaranteed return to clients. This BEST violates which Standard?",
+    "options": [
+      "Investment performance presentation",
+      "Misrepresentation",
+      "Professionalism"
+    ],
+    "answer": 1,
+    "explanation": "Guaranteeing returns is a form of misrepresentation since it misleads clients about possible outcomes. It's prohibited because investment outcomes cannot be assured."
+  },
+  {
+    "id": 7,
+    "subject": "Ethics",
+    "question": "Which action is a violation of the Standard of Loyalty?",
+    "options": [
+      "Recommending investments with high fees to increase your bonus",
+      "Disclosing personal conflicts of interest",
+      "Placing client interests before personal interests"
+    ],
+    "answer": 0,
+    "explanation": "Recommending high-fee investments for personal gain violates loyalty to clients. Disclosing conflicts and prioritizing client interests are required actions, not violations."
+  },
+  {
+    "id": 8,
+    "subject": "Ethics",
+    "question": "Placing client assets into one security to promote a future bonus is an example of breaching:",
+    "options": [
+      "Fair dealing",
+      "Loyalty",
+      "Diligence"
+    ],
+    "answer": 1,
+    "explanation": "This action prioritises the manager's interests over clients', breaching loyalty. It does not directly violate fair dealing or diligence."
+  },
+  {
+    "id": 9,
+    "subject": "Ethics",
+    "question": "Under the Standards, how long must records of client trades be kept?",
+    "options": [
+      "At least 3 years",
+      "Only until account closure",
+      "There is no specific requirement"
+    ],
+    "answer": 0,
+    "explanation": "CFA Standards require maintaining trade records for at least 3 years. The other options are false; records cannot be discarded immediately or arbitrarily."
+  },
+  {
+    "id": 10,
+    "subject": "Ethics",
+    "question": "Which Standard addresses the use of soft-dollar arrangements?",
+    "options": [
+      "Investment analysis, recommendation, and action",
+      "Material nonpublic information",
+      "Fair dealing"
+    ],
+    "answer": 0,
+    "explanation": "The soft-dollar standard falls under investment analysis and recommendation, as it concerns payment methods for research. It doesn't directly relate to nondisclosure or equitable treatment."
+  },
+  {
+    "id": 11,
+    "subject": "Ethics",
+    "question": "Promoting a proprietary product and discouraging alternatives without disclosure violates:",
+    "options": [
+      "Priority of transactions",
+      "Misrepresentation",
+      "Suitability"
+    ],
+    "answer": 2,
+    "explanation": "Failure to consider or disclose alternatives can violate suitability by not matching recommendations to clients' needs. It's not specifically about misrepresentation or trade timing."
+  },
+  {
+    "id": 12,
+    "subject": "Ethics",
+    "question": "A member must refuse gifts if they:",
+    "options": [
+      "Exceed normal business courtesies",
+      "Are given by family members",
+      "Are given outside of work hours"
+    ],
+    "answer": 0,
+    "explanation": "Gifts that compromise independence beyond normal courtesy should be refused. Gifts from family or timing are not inherently prohibited."
+  },
+  {
+    "id": 13,
+    "subject": "Ethics",
+    "question": "Publishing false performance history data would violate:",
+    "options": [
+      "Diligence and reasonable basis",
+      "Performance presentation",
+      "Record retention"
+    ],
+    "answer": 1,
+    "explanation": "Creating false performance is a breach of the performance presentation standard. Diligence and record retention are not directly about presenting results."
+  },
+  {
+    "id": 14,
+    "subject": "Ethics",
+    "question": "Sharing confidential client information with friends without consent violates:",
+    "options": [
+      "Professionalism",
+      "Integrity of capital markets",
+      "Diligence"
+    ],
+    "answer": 1,
+    "explanation": "Revealing confidential info violates market integrity by creating unfair advantage. It is not simply an issue of diligence or general professionalism."
+  },
+  {
+    "id": 15,
+    "subject": "Ethics",
+    "question": "Refusing to adapt research methodologies to new evidence may breach which Standard?",
+    "options": [
+      "Diligence",
+      "Loyalty",
+      "Confidentiality"
+    ],
+    "answer": 0,
+    "explanation": "Failure to update methods when warranted shows a lack of diligence. Loyalty and confidentiality are unrelated to research approach."
+  },
+  {
+    "id": 16,
+    "subject": "Ethics",
+    "question": "If a member’s interests conflict with a client’s, the member should:",
+    "options": [
+      "Follow the client’s instructions regardless",
+      "Resign from the CFA Institute",
+      "Disclose the conflict to the client"
+    ],
+    "answer": 2,
+    "explanation": "Disclosing conflicts to clients is required. Blindly following instructions or resigning are not appropriate conflict management."
+  },
+  {
+    "id": 17,
+    "subject": "Ethics",
+    "question": "A member delays client trade execution to benefit personal account. This is a breach of:",
+    "options": [
+      "Fair dealing",
+      "Priority of transactions",
+      "Independence and objectivity"
+    ],
+    "answer": 1,
+    "explanation": "Delaying client trades behind personal trades violates transaction priority rules. Fair dealing is about equal treatment, independence about biases."
+  },
+  {
+    "id": 18,
+    "subject": "Ethics",
+    "question": "Which action best demonstrates professionalism with clients?",
+    "options": [
+      "Charging excessive fees",
+      "Honest disclosure of investment risks",
+      "Guaranteeing positive returns"
+    ],
+    "answer": 1,
+    "explanation": "Professionals disclose risks honestly. Charging excessive fees or guaranteeing returns is unethical and violates standards."
+  },
+  {
+    "id": 19,
+    "subject": "Quantitative Methods",
+    "question": "An investment grows from ₹1,000 to ₹1,331 over three years. What is the annual compounded growth rate?",
+    "options": [
+      "10%",
+      "11%",
+      "12%"
+    ],
+    "answer": 1,
+    "explanation": "The growth factor is 1.331. The annual rate is the cube root of 1.331 minus 1, which is 0.10 (≈10%). The answer 11% is incorrect since it would yield about 1.366 over 3 years, and 12% yields 1.404."
+  },
+  {
+    "id": 20,
+    "subject": "Quantitative Methods",
+    "question": "If the standard deviation of a portfolio return is high, this indicates:",
+    "options": [
+      "High risk",
+      "High return",
+      "Low variability"
+    ],
+    "answer": 0,
+    "explanation": "Standard deviation measures volatility (risk). A high standard deviation means returns vary widely (more risk). It does not guarantee higher return and is the opposite of low variability."
+  },
+  {
+    "id": 21,
+    "subject": "Quantitative Methods",
+    "question": "The probability of A or B (mutually exclusive events) is 0.4 and 0.3 respectively. What is P(A or B)?",
+    "options": [
+      "0.12",
+      "0.3",
+      "0.7"
+    ],
+    "answer": 2,
+    "explanation": "For mutually exclusive events, P(A or B) = P(A) + P(B) = 0.4 + 0.3 = 0.7. Option 0.12 would be P(A and B) if they were independent (not applicable here), and 0.3 is only P(B)."
+  },
+  {
+    "id": 22,
+    "subject": "Quantitative Methods",
+    "question": "An asset’s returns have skewness > 0. This implies the distribution is:",
+    "options": [
+      "Left-skewed",
+      "Right-skewed",
+      "Symmetric"
+    ],
+    "answer": 1,
+    "explanation": "Positive skewness means a right (positive) tail; the distribution is right-skewed. A left-skewed distribution would have negative skewness, and symmetric skewness is 0."
+  },
+  {
+    "id": 23,
+    "subject": "Quantitative Methods",
+    "question": "A portfolio's returns are normally distributed. Approximately what percentage of returns will lie within two standard deviations of the mean?",
+    "options": [
+      "68%",
+      "95%",
+      "99%"
+    ],
+    "answer": 1,
+    "explanation": "For a normal distribution, about 68% of values lie within ±1 standard deviation, about 95% within ±2, and about 99.7% within ±3. So the answer is 95%."
+  },
+  {
+    "id": 24,
+    "subject": "Quantitative Methods",
+    "question": "Which measure is least affected by outliers?",
+    "options": [
+      "Mean",
+      "Median",
+      "Variance"
+    ],
+    "answer": 1,
+    "explanation": "The median is least affected by extreme values. The mean and variance are heavily influenced by outliers."
+  },
+  {
+    "id": 25,
+    "subject": "Quantitative Methods",
+    "question": "If an interest rate is 6% and inflation is 2%, the approximate real rate is:",
+    "options": [
+      "4%",
+      "6%",
+      "8%"
+    ],
+    "answer": 0,
+    "explanation": "Using the Fisher approximation: real ≈ nominal - inflation = 6% - 2% = 4%. The exact real rate would be slightly less (about 3.92%), so 4% is correct."
+  },
+  {
+    "id": 26,
+    "subject": "Quantitative Methods",
+    "question": "Which approach to return does NOT give any weight to timing of cash flows?",
+    "options": [
+      "Time-weighted return",
+      "Money-weighted return",
+      "Total return"
+    ],
+    "answer": 0,
+    "explanation": "Time-weighted return eliminates the effect of external cash flows timing. Money-weighted accounts for timing, and total return includes all cash flows."
+  },
+  {
+    "id": 27,
+    "subject": "Quantitative Methods",
+    "question": "A project has cash flows of ₹100 at t=0, ₹60 at t=1, ₹60 at t=2. If the discount rate is 10%, the NPV is closest to:",
+    "options": [
+      "₹12",
+      "₹22",
+      "₹72"
+    ],
+    "answer": 1,
+    "explanation": "NPV = -100 + 60/(1.10) + 60/(1.10^2) ≈ -100 + 54.55 + 49.59 = ₹4.14, which is nearest to ₹12 from the options (₹22 and ₹72 are much higher). Therefore, B (₹12) is the best match."
+  },
+  {
+    "id": 28,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Under IFRS, a revaluation increase of a property, plant and equipment is recorded in:",
+    "options": [
+      "Other comprehensive income",
+      "Retained earnings",
+      "Income statement"
+    ],
+    "answer": 0,
+    "explanation": "IFRS revaluation increases go to OCI (equity) rather than net income or retained earnings."
+  },
+  {
+    "id": 29,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Net income is ₹100 and depreciation is ₹20. The operating cash flow (indirect) is:",
+    "options": [
+      "₹80",
+      "₹120",
+      "₹100"
+    ],
+    "answer": 1,
+    "explanation": "Operating cash flow adds back non-cash depreciation: ₹100 + ₹20 = ₹120."
+  },
+  {
+    "id": 30,
+    "subject": "Financial Reporting & Analysis",
+    "question": "If inventory is written down by ₹10 due to obsolescence, this will:",
+    "options": [
+      "Reduce net income and reduce inventory",
+      "Increase net income",
+      "Not affect profit"
+    ],
+    "answer": 0,
+    "explanation": "An inventory write-down is an expense, which reduces net income and also decreases the inventory (asset) value."
+  },
+  {
+    "id": 31,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Return on assets is calculated as net income divided by:",
+    "options": [
+      "Average total assets",
+      "Sales revenue",
+      "Shareholder equity"
+    ],
+    "answer": 0,
+    "explanation": "ROA = net income / average total assets, indicating how efficiently assets generate profit. Sales is for profit margin, and equity is for ROE."
+  },
+  {
+    "id": 32,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Under rising costs, FIFO (versus LIFO) yields:",
+    "options": [
+      "Higher net income",
+      "Lower net income",
+      "Same net income"
+    ],
+    "answer": 0,
+    "explanation": "FIFO sells older, cheaper inventory first, resulting in lower COGS and higher net income compared to LIFO during inflation."
+  },
+  {
+    "id": 33,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Issuing common stock at a premium affects:",
+    "options": [
+      "Cash and equity",
+      "Only liabilities",
+      "Retained earnings"
+    ],
+    "answer": 0,
+    "explanation": "Selling stock above par increases cash and additional paid-in capital in equity. It does not affect liabilities or retained earnings."
+  },
+  {
+    "id": 34,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Effective tax rate equals:",
+    "options": [
+      "Income tax expense divided by pretax income",
+      "Cash taxes paid divided by pretax income",
+      "Income tax expense divided by taxable income"
+    ],
+    "answer": 0,
+    "explanation": "Effective tax rate is calculated as income tax expense divided by pretax accounting income (from the income statement)."
+  },
+  {
+    "id": 35,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Which item is recorded in other comprehensive income?",
+    "options": [
+      "Foreign currency translation adjustment",
+      "Gain on sale of equipment",
+      "Interest income"
+    ],
+    "answer": 0,
+    "explanation": "Currency translation adjustments are reported in OCI. Gains on sales and interest go into net income."
+  },
+  {
+    "id": 36,
+    "subject": "Financial Reporting & Analysis",
+    "question": "A receivables turnover of 12 and average receivables of ₹10M implies annual revenue of:",
+    "options": [
+      "₹120M",
+      "₹12M",
+      "₹22M"
+    ],
+    "answer": 0,
+    "explanation": "Receivables turnover = Revenue / Avg Receivables. Here, Revenue = 12 × ₹10M = ₹120M."
+  },
+  {
+    "id": 37,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Capitalizing development costs (versus expensing) will:",
+    "options": [
+      "Increase current period profit",
+      "Decrease profit",
+      "Have no immediate effect"
+    ],
+    "answer": 0,
+    "explanation": "Capitalizing defers expense, boosting current profit. Expensing would lower profit immediately."
+  },
+  {
+    "id": 38,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Deferred tax liability arises from:",
+    "options": [
+      "Taxable temporary differences",
+      "Permanent differences",
+      "Recording inventory at replacement cost"
+    ],
+    "answer": 0,
+    "explanation": "Deferred tax liabilities come from taxable temporary differences (future taxable amounts). Permanent differences do not create deferred taxes."
+  },
+  {
+    "id": 39,
+    "subject": "Financial Reporting & Analysis",
+    "question": "Debt to equity ratio measures:",
+    "options": [
+      "Leverage",
+      "Profitability",
+      "Liquidity"
+    ],
+    "answer": 0,
+    "explanation": "Debt/equity is a measure of financial leverage (solvency). It does not measure profitability or liquidity."
+  },
+  {
+    "id": 40,
+    "subject": "Economics",
+    "question": "If inflation is higher than expected, who benefits MOST?",
+    "options": [
+      "Borrowers",
+      "Lenders",
+      "Savers"
+    ],
+    "answer": 0,
+    "explanation": "Unexpected inflation reduces the real value of debt. Borrowers gain since they repay with less valuable currency. Lenders and savers are hurt."
+  },
+  {
+    "id": 41,
+    "subject": "Economics",
+    "question": "A stronger domestic currency will MOST likely:",
+    "options": [
+      "Increase exports",
+      "Decrease imports",
+      "Decrease net exports"
+    ],
+    "answer": 2,
+    "explanation": "Stronger currency makes exports more expensive and imports cheaper, generally reducing net exports."
+  },
+  {
+    "id": 42,
+    "subject": "Economics",
+    "question": "During a recessionary gap, fiscal policy should focus on:",
+    "options": [
+      "Cutting taxes and increasing spending",
+      "Raising taxes and cutting spending",
+      "Maintaining a balanced budget"
+    ],
+    "answer": 0,
+    "explanation": "To stimulate the economy, expansionary policy (lower taxes, higher spending) is appropriate. The others are contractionary or neutral policies."
+  },
+  {
+    "id": 43,
+    "subject": "Economics",
+    "question": "Which of the following is a leading economic indicator?",
+    "options": [
+      "Unemployment rate",
+      "Industrial production",
+      "Stock market performance"
+    ],
+    "answer": 2,
+    "explanation": "Stock market trends typically lead economic cycles. Unemployment is a lagging indicator and production is coincident."
+  },
+  {
+    "id": 44,
+    "subject": "Economics",
+    "question": "GDP calculated by expenditure approach includes:",
+    "options": [
+      "Consumer spending",
+      "Interest payments",
+      "Transfer payments"
+    ],
+    "answer": 0,
+    "explanation": "The expenditure approach is C + I + G + (X – M). It includes consumer spending. Interest and transfers are not directly in GDP."
+  },
+  {
+    "id": 45,
+    "subject": "Economics",
+    "question": "If the central bank decreases the policy rate, we expect:",
+    "options": [
+      "Currency depreciation",
+      "Currency appreciation",
+      "No currency change"
+    ],
+    "answer": 0,
+    "explanation": "Lower interest rates tend to weaken the currency (depreciation) as capital flows out for higher returns elsewhere."
+  },
+  {
+    "id": 46,
+    "subject": "Economics",
+    "question": "Aggregate supply will shift right if:",
+    "options": [
+      "Wages increase",
+      "Productivity rises",
+      "Taxes rise"
+    ],
+    "answer": 1,
+    "explanation": "Higher productivity (lower costs per unit) shifts aggregate supply right. Higher wages or taxes would increase costs and shift supply left."
+  },
+  {
+    "id": 47,
+    "subject": "Corporate Finance",
+    "question": "A project with IRR greater than WACC should be:",
+    "options": [
+      "Accepted",
+      "Rejected",
+      "Postponed"
+    ],
+    "answer": 0,
+    "explanation": "If IRR > WACC, the project adds value and should be accepted. Rejecting or postponing would ignore value creation."
+  },
+  {
+    "id": 48,
+    "subject": "Corporate Finance",
+    "question": "Agency problems arise primarily from conflicts between:",
+    "options": [
+      "Managers and shareholders",
+      "Creditors and debtors",
+      "Buyers and sellers"
+    ],
+    "answer": 0,
+    "explanation": "Agency conflicts are between managers and shareholders, since managers (agents) may not always act in shareholders' best interests."
+  },
+  {
+    "id": 49,
+    "subject": "Corporate Finance",
+    "question": "Which component is NOT part of WACC?",
+    "options": [
+      "Cost of equity",
+      "Cost of retained earnings",
+      "Cost of inventory"
+    ],
+    "answer": 2,
+    "explanation": "WACC includes the costs of equity, debt, and preferred stock. Inventory cost is an operating expense, not a capital cost."
+  },
+  {
+    "id": 50,
+    "subject": "Corporate Finance",
+    "question": "Capital budgeting decisions primarily involve:",
+    "options": [
+      "Long-term investments",
+      "Working capital management",
+      "Dividend payments"
+    ],
+    "answer": 0,
+    "explanation": "Capital budgeting refers to decisions about long-term projects and capital expenditures. Working capital and dividends are separate financial decisions."
+  },
+  {
+    "id": 51,
+    "subject": "Corporate Finance",
+    "question": "Free cash flow to firm excludes:",
+    "options": [
+      "Interest expense",
+      "Capital expenditures",
+      "Taxes"
+    ],
+    "answer": 0,
+    "explanation": "FCFF is calculated before interest (to all providers of capital), so interest expense is excluded. It includes capex and taxes."
+  },
+  {
+    "id": 52,
+    "subject": "Corporate Finance",
+    "question": "Operating leverage measures a company’s:",
+    "options": [
+      "Fixed costs relative to variable costs",
+      "Use of debt financing",
+      "Inventory turnover"
+    ],
+    "answer": 0,
+    "explanation": "Operating leverage indicates the degree of fixed costs in a firm's cost structure. It is not related to debt (financial leverage) or inventory turnover."
+  },
+  {
+    "id": 53,
+    "subject": "Equity Investments",
+    "question": "A company’s P/E ratio is 20. This suggests its stock may be:",
+    "options": [
+      "Expensive relative to earnings",
+      "Cheap relative to earnings",
+      "Unrelated to earnings"
+    ],
+    "answer": 0,
+    "explanation": "A higher P/E indicates investors are paying more for each unit of earnings, suggesting the stock is relatively expensive. A low P/E might indicate cheapness."
+  },
+  {
+    "id": 54,
+    "subject": "Equity Investments",
+    "question": "Dividend yield is calculated as:",
+    "options": [
+      "Annual dividend per share divided by share price",
+      "Share price divided by annual dividend",
+      "Total dividends / market capitalization"
+    ],
+    "answer": 0,
+    "explanation": "Dividend yield = (annual dividend per share) / (market price per share). The other formulas are incorrect definitions."
+  },
+  {
+    "id": 55,
+    "subject": "Equity Investments",
+    "question": "Which is considered a growth stock characteristic?",
+    "options": [
+      "High dividend yield",
+      "High P/E ratio",
+      "Negative earnings"
+    ],
+    "answer": 1,
+    "explanation": "Growth stocks typically reinvest earnings and thus have high P/E ratios. They usually have low dividend yields and are profitable, so negative earnings is not characteristic."
+  },
+  {
+    "id": 56,
+    "subject": "Equity Investments",
+    "question": "Market efficiency hypothesis suggests:",
+    "options": [
+      "Stock prices fully reflect all information",
+      "Active management always outperforms",
+      "Random events do not affect prices"
+    ],
+    "answer": 0,
+    "explanation": "Market efficiency (semi-strong) means all available information is reflected in prices. Active managers cannot consistently outperform the market."
+  },
+  {
+    "id": 57,
+    "subject": "Equity Investments",
+    "question": "Which factor is most likely to influence a stock’s beta?",
+    "options": [
+      "Industry cyclicality",
+      "Company’s dividend policy",
+      "Book value per share"
+    ],
+    "answer": 0,
+    "explanation": "A cyclical industry tends to have higher sensitivity to market movements, raising beta. Dividend policy or book value do not directly determine market risk."
+  },
+  {
+    "id": 58,
+    "subject": "Equity Investments",
+    "question": "Secondary markets refer to:",
+    "options": [
+      "Trading of existing shares",
+      "IPO issuance of new shares",
+      "Private placements"
+    ],
+    "answer": 0,
+    "explanation": "Secondary markets involve trading existing securities among investors. IPOs are primary issues of new shares, and private placements are direct offerings, not exchanges."
+  },
+  {
+    "id": 59,
+    "subject": "Equity Investments",
+    "question": "Which is least likely to affect equity valuation directly?",
+    "options": [
+      "Discount rate changes",
+      "Growth rate changes",
+      "Local weather forecasts"
+    ],
+    "answer": 2,
+    "explanation": "Weather forecasts are unrelated to intrinsic equity valuation. Discount rate and expected growth are fundamental to valuation models."
+  },
+  {
+    "id": 60,
+    "subject": "Equity Investments",
+    "question": "A high ROE may suggest:",
+    "options": [
+      "Efficient use of equity capital",
+      "Large dividend payouts",
+      "Inefficient operations"
+    ],
+    "answer": 0,
+    "explanation": "High ROE means high profit relative to equity, indicating efficiency. It does not directly imply dividend policy or inefficiency."
+  },
+  {
+    "id": 61,
+    "subject": "Equity Investments",
+    "question": "A stock’s intrinsic value is defined as:",
+    "options": [
+      "Its true value based on fundamentals",
+      "Its current market price",
+      "Its book value"
+    ],
+    "answer": 0,
+    "explanation": "Intrinsic value is the theoretical value based on fundamentals and expected cash flows. Market price and book value are different measures."
+  },
+  {
+    "id": 62,
+    "subject": "Equity Investments",
+    "question": "Earnings per share (EPS) is calculated as:",
+    "options": [
+      "(Net income - preferred dividends) / weighted avg common shares",
+      "Net income / total shares outstanding",
+      "Total dividends / net income"
+    ],
+    "answer": 0,
+    "explanation": "EPS = (Net income - preferred dividends) / weighted average common shares. The other options are incorrect or incomplete."
+  },
+  {
+    "id": 63,
+    "subject": "Equity Investments",
+    "question": "A stock index that is capitalization-weighted means:",
+    "options": [
+      "Larger companies have more influence",
+      "All companies have equal weight",
+      "Only price changes matter"
+    ],
+    "answer": 0,
+    "explanation": "In a cap-weighted index, stocks with larger market caps have greater influence. Equal-weighted indices give each stock equal weight."
+  },
+  {
+    "id": 64,
+    "subject": "Equity Investments",
+    "question": "Investor holding horizon is factored into which stock valuation model?",
+    "options": [
+      "Dividend discount model",
+      "Price-to-book ratio",
+      "Liquidity preference theory"
+    ],
+    "answer": 0,
+    "explanation": "Dividend discount models incorporate expected dividends over the holding period. P/B is a ratio, and liquidity preference is a bond concept."
+  },
+  {
+    "id": 65,
+    "subject": "Equity Investments",
+    "question": "Which scenario is least likely for a high-growth company?",
+    "options": [
+      "Low payout ratio",
+      "High P/E ratio",
+      "High dividend yield"
+    ],
+    "answer": 2,
+    "explanation": "High-growth companies usually reinvest earnings (low payout) and have high P/E. They rarely pay high dividends, so high yield is least likely."
+  },
+  {
+    "id": 66,
+    "subject": "Equity Investments",
+    "question": "ADR (American Depository Receipt) provides U.S. investors:",
+    "options": [
+      "Access to foreign shares in USD",
+      "Dividends at a fixed rate",
+      "Enhanced voting rights"
+    ],
+    "answer": 0,
+    "explanation": "ADRs allow U.S. investors to buy foreign stocks in U.S. dollars on U.S. exchanges. They do not change dividend rates or voting rights."
+  },
+  {
+    "id": 67,
+    "subject": "Fixed Income",
+    "question": "Bond prices and yields have a:",
+    "options": [
+      "Direct relationship",
+      "Inverse relationship",
+      "No consistent relationship"
+    ],
+    "answer": 1,
+    "explanation": "Bond prices and yields move inversely: when yields rise, existing bond prices fall. The other options are incorrect."
+  },
+  {
+    "id": 68,
+    "subject": "Fixed Income",
+    "question": "Duration measures a bond’s:",
+    "options": [
+      "Interest rate sensitivity",
+      "Time to maturity",
+      "Credit quality"
+    ],
+    "answer": 0,
+    "explanation": "Duration measures price sensitivity to interest rate changes. It is not the time to maturity or credit rating."
+  },
+  {
+    "id": 69,
+    "subject": "Fixed Income",
+    "question": "A callable bond is likely to be called when:",
+    "options": [
+      "Interest rates fall",
+      "Interest rates rise",
+      "Credit rating drops"
+    ],
+    "answer": 0,
+    "explanation": "Issuers call bonds (refinance) when interest rates fall, replacing older debt with cheaper debt. High interest rates or rating changes do not trigger calls."
+  },
+  {
+    "id": 70,
+    "subject": "Fixed Income",
+    "question": "Yield to maturity assumes:",
+    "options": [
+      "Reinvestment at YTM rate",
+      "No reinvestment of coupons",
+      "Interest is tax-free"
+    ],
+    "answer": 0,
+    "explanation": "YTM assumes that coupon payments are reinvested at the YTM rate. The other statements are incorrect assumptions."
+  },
+  {
+    "id": 71,
+    "subject": "Fixed Income",
+    "question": "A zero-coupon bond:",
+    "options": [
+      "Pays no periodic interest",
+      "Pays periodic coupons only",
+      "Has no maturity date"
+    ],
+    "answer": 0,
+    "explanation": "Zero-coupon bonds pay no periodic interest. They pay the face value at maturity, so they do have a maturity date."
+  },
+  {
+    "id": 72,
+    "subject": "Fixed Income",
+    "question": "A yield curve that is upward-sloping indicates:",
+    "options": [
+      "Higher long-term rates than short-term",
+      "Lower long-term rates",
+      "Flat interest rate environment"
+    ],
+    "answer": 0,
+    "explanation": "An upward-sloping (normal) yield curve means long-term yields are higher than short-term yields, reflecting expectations of growth or inflation."
+  },
+  {
+    "id": 73,
+    "subject": "Fixed Income",
+    "question": "Credit spread is the difference between:",
+    "options": [
+      "Corporate bond yield and risk-free yield",
+      "Bid and ask prices",
+      "Coupon rate and yield"
+    ],
+    "answer": 0,
+    "explanation": "Credit spread is how much more a corporate bond yields compared to a comparable risk-free bond. It is not bid-ask spread or coupon-yield spread."
+  },
+  {
+    "id": 74,
+    "subject": "Fixed Income",
+    "question": "Interest rate risk is greatest for a bond with:",
+    "options": [
+      "Long maturity and low coupon",
+      "Short maturity and high coupon",
+      "Short maturity and low coupon"
+    ],
+    "answer": 0,
+    "explanation": "Longer maturity and lower coupon yield higher duration (interest rate sensitivity). Short maturities or high coupons reduce interest rate risk."
+  },
+  {
+    "id": 75,
+    "subject": "Fixed Income",
+    "question": "Current yield is calculated as:",
+    "options": [
+      "Annual coupon divided by price",
+      "Yield to maturity",
+      "Coupon rate plus yield"
+    ],
+    "answer": 0,
+    "explanation": "Current yield = (annual coupon payment) / (current price). It is a simple income measure, unlike YTM which accounts for total return."
+  },
+  {
+    "id": 76,
+    "subject": "Fixed Income",
+    "question": "A bond with yield above its coupon trades at:",
+    "options": [
+      "Discount",
+      "Premium",
+      "Par"
+    ],
+    "answer": 0,
+    "explanation": "If a bond's yield is above its coupon rate, it trades at a discount. If yield is below coupon, it trades at a premium."
+  },
+  {
+    "id": 77,
+    "subject": "Fixed Income",
+    "question": "Duration of zero-coupon bond equals:",
+    "options": [
+      "Time to maturity",
+      "Half of maturity",
+      "Coupon rate"
+    ],
+    "answer": 0,
+    "explanation": "For a zero-coupon bond, duration equals its time to maturity, since all cash flow occurs at maturity."
+  },
+  {
+    "id": 78,
+    "subject": "Fixed Income",
+    "question": "As interest rates rise, the price of a coupon bond:",
+    "options": [
+      "Falls",
+      "Rises",
+      "Remains unchanged"
+    ],
+    "answer": 0,
+    "explanation": "Bond prices move inversely to yields: when rates rise, prices fall."
+  },
+  {
+    "id": 79,
+    "subject": "Fixed Income",
+    "question": "Which bond is least sensitive to interest rate changes?",
+    "options": [
+      "Short-term high-coupon bond",
+      "Long-term zero-coupon bond",
+      "Perpetual bond"
+    ],
+    "answer": 0,
+    "explanation": "Short duration (short-term) and high coupon yield the lowest sensitivity. Long zero-coupon and perpetual bonds have very high sensitivity."
+  },
+  {
+    "id": 80,
+    "subject": "Fixed Income",
+    "question": "A bond’s modified duration approximates the change in price for a 1% change in:",
+    "options": [
+      "Yield",
+      "Credit rating",
+      "Inflation"
+    ],
+    "answer": 0,
+    "explanation": "Modified duration estimates the percentage price change for a 1% change in yield. It's not directly related to credit rating or inflation."
+  },
+  {
+    "id": 81,
+    "subject": "Derivatives",
+    "question": "A call option gives its holder:",
+    "options": [
+      "The right to buy the underlying asset",
+      "The right to sell the underlying asset",
+      "An obligation to buy the underlying asset"
+    ],
+    "answer": 0,
+    "explanation": "A call option gives the holder the right (but not the obligation) to buy the underlying asset at the strike price."
+  },
+  {
+    "id": 82,
+    "subject": "Derivatives",
+    "question": "For a put option buyer, the maximum loss is:",
+    "options": [
+      "The premium paid",
+      "Unlimited",
+      "Strike price"
+    ],
+    "answer": 0,
+    "explanation": "Buyers of options (calls or puts) can lose at most the premium paid. They do not have unlimited loss."
+  },
+  {
+    "id": 83,
+    "subject": "Derivatives",
+    "question": "Futures contracts are:",
+    "options": [
+      "Standardized and exchange-traded",
+      "Customized and OTC",
+      "Insurance policies"
+    ],
+    "answer": 0,
+    "explanation": "Futures are standardized contracts traded on exchanges. OTC forwards are customized. Futures are not insurance."
+  },
+  {
+    "id": 84,
+    "subject": "Derivatives",
+    "question": "A long futures position is hedging against:",
+    "options": [
+      "Price increase",
+      "Price decrease",
+      "Credit risk"
+    ],
+    "answer": 0,
+    "explanation": "Going long a futures contract locks in a purchase price, hedging against a price increase. Short hedges against price decrease."
+  },
+  {
+    "id": 85,
+    "subject": "Derivatives",
+    "question": "One purpose of a margin requirement is to:",
+    "options": [
+      "Reduce default risk",
+      "Eliminate volatility",
+      "Guarantee profit"
+    ],
+    "answer": 0,
+    "explanation": "Margins require collateral to reduce counterparty default risk. They cannot remove market volatility or guarantee profit."
+  },
+  {
+    "id": 86,
+    "subject": "Derivatives",
+    "question": "Swap contracts typically allow parties to exchange:",
+    "options": [
+      "Different cash flows",
+      "Equity shares",
+      "Bonds for cash"
+    ],
+    "answer": 0,
+    "explanation": "Swaps involve exchanging cash flows (e.g. floating for fixed interest). They are not direct equity or bond transactions."
+  },
+  {
+    "id": 87,
+    "subject": "Derivatives",
+    "question": "Which derivative has no expiration date?",
+    "options": [
+      "Warrant",
+      "Futures",
+      "Option"
+    ],
+    "answer": 0,
+    "explanation": "Warrants can be issued with very long maturities (often several years), though most do expire. Futures and options always have finite expiration."
+  },
+  {
+    "id": 88,
+    "subject": "Derivatives",
+    "question": "Counterparty risk is highest in:",
+    "options": [
+      "Uncleared (OTC) forwards",
+      "Exchange-traded futures",
+      "Collateralized swaps"
+    ],
+    "answer": 0,
+    "explanation": "OTC forwards have full counterparty risk since there is no clearinghouse guarantee. Futures are cleared, and collateralization reduces swap risk."
+  },
+  {
+    "id": 89,
+    "subject": "Portfolio Management",
+    "question": "Diversification primarily reduces:",
+    "options": [
+      "Unsystematic risk",
+      "Systematic risk",
+      "Total return"
+    ],
+    "answer": 0,
+    "explanation": "Diversification eliminates unsystematic (firm-specific) risk. Systematic (market) risk remains. Returns are not eliminated."
+  },
+  {
+    "id": 90,
+    "subject": "Portfolio Management",
+    "question": "CAPM relates expected return to:",
+    "options": [
+      "Systematic risk (beta)",
+      "Total risk (volatility)",
+      "Market capitalization"
+    ],
+    "answer": 0,
+    "explanation": "CAPM's formula uses beta (systematic risk) to determine expected return. Total volatility (standard deviation) and market cap are not part of the CAPM equation."
+  },
+  {
+    "id": 91,
+    "subject": "Portfolio Management",
+    "question": "Efficient frontier consists of portfolios with:",
+    "options": [
+      "Maximal return for given risk",
+      "Identical risk levels",
+      "No correlation"
+    ],
+    "answer": 0,
+    "explanation": "The efficient frontier contains portfolios that provide the highest return for each level of risk. It does not imply identical risk or zero correlation by definition."
+  },
+  {
+    "id": 92,
+    "subject": "Portfolio Management",
+    "question": "Sharpe ratio measures:",
+    "options": [
+      "Excess return per unit of risk",
+      "Total return of a portfolio",
+      "Debt ratio"
+    ],
+    "answer": 0,
+    "explanation": "Sharpe ratio = (Portfolio return – risk-free rate) / standard deviation. It measures risk-adjusted excess return, not total return or leverage."
+  },
+  {
+    "id": 93,
+    "subject": "Portfolio Management",
+    "question": "Beta of a risk-free asset is:",
+    "options": [
+      "Zero",
+      "One",
+      "Undefined"
+    ],
+    "answer": 0,
+    "explanation": "Risk-free assets have no market risk, so their beta is 0. A beta of 1 applies to the market portfolio."
+  },
+  {
+    "id": 94,
+    "subject": "Portfolio Management",
+    "question": "The primary difference between passive and active management is:",
+    "options": [
+      "Active attempts to beat the market",
+      "Passive uses high turnover",
+      "Active ignores risk management"
+    ],
+    "answer": 0,
+    "explanation": "Active managers try to outperform the market benchmark; passive management tracks an index. Passive typically has low turnover."
+  },
+  {
+    "id": 95,
+    "subject": "Portfolio Management",
+    "question": "In CAPM, if a stock has beta = 1.2 and market risk premium is 5%, its expected return above risk-free is:",
+    "options": [
+      "6%",
+      "5%",
+      "1.2%"
+    ],
+    "answer": 0,
+    "explanation": "Expected return above risk-free = beta × market premium = 1.2 × 5% = 6%."
+  },
+  {
+    "id": 96,
+    "subject": "Portfolio Management",
+    "question": "A portfolio moves along the efficient frontier by:",
+    "options": [
+      "Changing asset weights",
+      "Adding new asset classes",
+      "Holding a constant asset mix"
+    ],
+    "answer": 0,
+    "explanation": "Different points on the frontier come from different weightings of the assets. Adding new asset classes shifts the frontier itself."
+  },
+  {
+    "id": 97,
+    "subject": "Portfolio Management",
+    "question": "A portfolio has a beta of 1.5. This implies the portfolio is:",
+    "options": [
+      "More volatile than market",
+      "Less volatile than market",
+      "Uncorrelated with market"
+    ],
+    "answer": 0,
+    "explanation": "Beta of 1.5 means the portfolio has 50% higher volatility relative to the market. A beta below 1 would be less volatile."
+  },
+  {
+    "id": 98,
+    "subject": "Portfolio Management",
+    "question": "Active return of a portfolio is:",
+    "options": [
+      "Portfolio return minus benchmark return",
+      "Portfolio return minus risk-free rate",
+      "Risk-free rate plus alpha"
+    ],
+    "answer": 0,
+    "explanation": "Active return (alpha) = portfolio return – benchmark return. The other formulas define excess return or risk-free add-ons, not active return."
+  },
+  {
+    "id": 99,
+    "subject": "Portfolio Management",
+    "question": "A portfolio of two negatively correlated assets will have:",
+    "options": [
+      "Lower volatility than either asset individually",
+      "Higher average return",
+      "Guaranteed positive return"
+    ],
+    "answer": 0,
+    "explanation": "Negative correlation can reduce portfolio variance below that of each asset alone. It does not guarantee returns or increase average return."
+  },
+  {
+    "id": 100,
+    "subject": "Portfolio Management",
+    "question": "The Capital Market Line (CML) shows the trade-off between:",
+    "options": [
+      "Risk-free asset and market portfolio",
+      "Any risky asset and cash",
+      "Two arbitrary stocks"
+    ],
+    "answer": 0,
+    "explanation": "CML is drawn from the risk-free rate to the market portfolio, showing optimal risk-return trade-offs. It is not between arbitrary stocks or unrelated assets."
+  }
+]
