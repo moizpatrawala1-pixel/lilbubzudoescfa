@@ -1,0 +1,196 @@
+{
+  "Ethics": [
+    {
+      "id": 1,
+      "subject": "Ethics",
+      "question": "Members must act with:",
+      "options": ["Speed", "Integrity", "Aggression", "Bias"],
+      "answer": 1,
+      "explanation": "Integrity is core to CFA Code of Ethics."
+    },
+    {
+      "id": 2,
+      "subject": "Ethics",
+      "question": "Front running violates:",
+      "options": ["Suitability", "Priority of Transactions", "Disclosure", "Misconduct"],
+      "answer": 1,
+      "explanation": "Client trades must take priority."
+    },
+    {
+      "id": 3,
+      "subject": "Ethics",
+      "question": "Material non-public info use is:",
+      "options": ["Allowed", "Encouraged", "Prohibited", "Optional"],
+      "answer": 2,
+      "explanation": "Insider trading is strictly prohibited."
+    },
+    {
+      "id": 4,
+      "subject": "Ethics",
+      "question": "Misrepresentation includes:",
+      "options": ["Accurate reporting", "Omission of facts", "Transparency", "Disclosure"],
+      "answer": 1,
+      "explanation": "Omitting key facts misleads investors."
+    },
+    {
+      "id": 5,
+      "subject": "Ethics",
+      "question": "Soft dollar benefits must go to:",
+      "options": ["Manager", "Broker", "Client", "Regulator"],
+      "answer": 2,
+      "explanation": "Client interest comes first."
+    },
+    {
+      "id": 6,
+      "subject": "Ethics",
+      "question": "Standard on loyalty is toward:",
+      "options": ["Employer", "Client", "Government", "Peers"],
+      "answer": 1,
+      "explanation": "Client interests come first."
+    },
+    {
+      "id": 7,
+      "subject": "Ethics",
+      "question": "Plagiarism violates:",
+      "options": ["Diligence", "Misrepresentation", "Suitability", "Independence"],
+      "answer": 1,
+      "explanation": "Using others’ work without credit is misrepresentation."
+    },
+    {
+      "id": 8,
+      "subject": "Ethics",
+      "question": "Suitability requires:",
+      "options": ["High returns", "Client risk alignment", "Fast execution", "Low cost"],
+      "answer": 1,
+      "explanation": "Investments must match client objectives."
+    },
+    {
+      "id": 9,
+      "subject": "Ethics",
+      "question": "Record retention is:",
+      "options": ["Optional", "Mandatory", "Illegal", "Discouraged"],
+      "answer": 1,
+      "explanation": "Maintaining records is required."
+    },
+    {
+      "id": 10,
+      "subject": "Ethics",
+      "question": "Independence and objectivity protects against:",
+      "options": ["Bias", "Taxes", "Volatility", "Risk"],
+      "answer": 0,
+      "explanation": "It ensures unbiased judgment."
+    }
+  ],
+
+  "Quantitative Methods": [
+    {
+      "id": 11,
+      "subject": "Quant",
+      "question": "Mean is:",
+      "options": ["Middle value", "Average", "Mode", "Variance"],
+      "answer": 1,
+      "explanation": "Mean is arithmetic average."
+    },
+    {
+      "id": 12,
+      "subject": "Quant",
+      "question": "Standard deviation measures:",
+      "options": ["Return", "Risk", "Growth", "Inflation"],
+      "answer": 1,
+      "explanation": "SD measures volatility."
+    },
+    {
+      "id": 13,
+      "subject": "Quant",
+      "question": "NPV positive means:",
+      "options": ["Reject project", "Accept project", "Ignore", "Delay"],
+      "answer": 1,
+      "explanation": "Positive NPV adds value."
+    }
+  ],
+
+  "FSA": [
+    {
+      "id": 21,
+      "subject": "FSA",
+      "question": "Assets = ?",
+      "options": ["Liabilities + Equity", "Revenue + Expenses", "Cash + Debt", "Profit + Loss"],
+      "answer": 0,
+      "explanation": "Basic accounting equation."
+    },
+    {
+      "id": 22,
+      "subject": "FSA",
+      "question": "Depreciation is:",
+      "options": ["Cash", "Non-cash", "Revenue", "Liability"],
+      "answer": 1,
+      "explanation": "Depreciation is non-cash."
+    }
+  ],
+
+  "Economics": [
+    {
+      "id": 31,
+      "subject": "Economics",
+      "question": "Inflation reduces:",
+      "options": ["Purchasing power", "GDP", "Interest rates", "Exports"],
+      "answer": 0,
+      "explanation": "Inflation erodes purchasing power."
+    }
+  ],
+
+  "Corporate Issuers": [
+    {
+      "id": 41,
+      "subject": "Corporate Issuers",
+      "question": "WACC used for:",
+      "options": ["Forecasting", "Discounting", "Budgeting", "Accounting"],
+      "answer": 1,
+      "explanation": "WACC is discount rate."
+    }
+  ],
+
+  "Equity": [
+    {
+      "id": 51,
+      "subject": "Equity",
+      "question": "P/E measures:",
+      "options": ["Risk", "Valuation", "Liquidity", "Growth"],
+      "answer": 1,
+      "explanation": "Valuation metric."
+    }
+  ],
+
+  "Fixed Income": [
+    {
+      "id": 61,
+      "subject": "Fixed Income",
+      "question": "Bond prices move:",
+      "options": ["With rates", "Opposite rates", "Random", "No relation"],
+      "answer": 1,
+      "explanation": "Inverse relationship."
+    }
+  ],
+
+  "Derivatives": [
+    {
+      "id": 71,
+      "subject": "Derivatives",
+      "question": "Call option gives right to:",
+      "options": ["Sell", "Buy", "Hold", "Short"],
+      "answer": 1,
+      "explanation": "Call = buy."
+    }
+  ],
+
+  "Portfolio Management": [
+    {
+      "id": 81,
+      "subject": "Portfolio",
+      "question": "Diversification reduces:",
+      "options": ["Systematic risk", "Unsystematic risk", "Market risk", "Beta"],
+      "answer": 1,
+      "explanation": "Removes firm-specific risk."
+    }
+  ]
+}
